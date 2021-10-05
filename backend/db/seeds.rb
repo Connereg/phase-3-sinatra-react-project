@@ -12,6 +12,11 @@ puts "🌱 Seeding Notes..."
 
 
 puts "🌱 Seeding Comments..."
+# rand_names = User.all.select("name")
+
+# 50.times do
+#     Comment.create(name: rand(rand_names), )
+# end
 
 
 puts "✅ Done seeding!"
